@@ -13,10 +13,13 @@ namespace AcmeRemoteFlights.Services
     public class BookingEngineService : IBookingEngineService
     {
         private IUnitOfWork _unitOfWork;
+        private IRepository<Flight> _flightRepository;
+        private IRepository<BookedFlight> _bookedFlightsRepository;
 
-        public BookingEngineService(IUnitOfWork unitOfWork)
+        public BookingEngineService(IUnitOfWork unitOfWork, FlightsDBContext flightDBContext)
         {
             _unitOfWork = unitOfWork;
+            DbInitializer.Initialize(flightDBContext);
         }
 
         public IEnumerable<AvailableFlightsDTO> GetAvailableFlights(DateTime fromDate, DateTime toDate, int numberOfPassengers)
@@ -40,7 +43,7 @@ namespace AcmeRemoteFlights.Services
 
                     if (bookedFlightItem == null)
                     {
-                        modifiedFlightList.Add(new BookedFlight { BookedFlightID = Guid.NewGuid(), Flight = flight, FlightID = flight.FlightID, NoOfPassengers = 0 });
+                        modifiedFlightList.Add(new BookedFlight { TravelDate= startDate, Flight = flight, FlightID = flight.FlightID, NoOfPassengers = 0 });
                     }
                     else if(bookedFlightItem.NoOfPassengers < bookedFlightItem.Flight.SeatingCapacity 
                         && (bookedFlightItem.Flight.SeatingCapacity - bookedFlightItem.NoOfPassengers) >= numberOfPassengers)

@@ -21,11 +21,14 @@ namespace AcmeRemoteFlights.Services.Map
 
                 availableFlight.AvailableFlight = bookedFlight.Flight;
                 availableFlight.AvailableSeats = bookedFlight.Flight.SeatingCapacity - bookedFlight.NoOfPassengers;
-
+                availableFlight.TravelDate = bookedFlight.TravelDate;
                 availableFlights.Add(availableFlight);
             }
 
             return availableFlights;
         }
+        
+
+
     }
 }

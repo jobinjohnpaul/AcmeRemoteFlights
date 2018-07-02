@@ -29,17 +29,17 @@ namespace AcmeRemoteFlights
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<FlightsDBContext>(opt =>
-                opt.UseInMemoryDatabase("AcmeRemoteFlights"));
-
+            opt.UseSqlite(Configuration.GetConnectionString("FlightsDB")));
+            
             services.AddTransient<IRepository<Flight>, RepositoryBase<Flight>>();
             services.AddTransient<IRepository<BookedFlight>, RepositoryBase<BookedFlight>>();
             services.AddTransient<IBookingEngineService, BookingEngineService>();
             services.AddTransient<IValidationService, ValidationService>();
-            services.AddSingleton<IUnitOfWork, UnitOfWork>();
-
+            services.AddTransient<IUnitOfWork, UnitOfWork>();
+            
             services.AddMvc();
         }
-
+        
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {

@@ -7,6 +7,7 @@ namespace AcmeRemoteFlights.Services.Models
 {
     public class AvailableFlightsDTO
     {
+        public DateTime TravelDate { get; set; }
         public int AvailableSeats { get; set; }
         public Flight AvailableFlight { get; set; }
     }
