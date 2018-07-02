@@ -1,0 +1,5 @@
+AcmeRemoteFlights Assumptions
+
+A flight only operates once a day in one direction
+There is only a single record per flight per day which gets updated when a booking is made
+ eg: BookedFlights will have one record if there is a booking for 2 people on 01-07-2018. If 2 more people decide to travel on this day the booking gets updated to 4. No new records are added.

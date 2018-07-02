@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AcmeRemoteFlights", "AcmeRemoteFlights\AcmeRemoteFlights.csproj", "{3966B642-F868-4E06-B65E-18F3CE3CEFA8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AcmeRemoteFlights.Domain", "AcmeRemoteFlights.Domain\AcmeRemoteFlights.Domain.csproj", "{3ABA81AD-819E-4B50-BBC7-CB892806931B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E068605A-A17D-41FB-95E7-184DD60E4DA1}"
+	ProjectSection(SolutionItems) = preProject
+		Assumptions.txt = Assumptions.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AcmeRemoteFlights.Services", "AcmeRemoteFlights.Services\AcmeRemoteFlights.Services.csproj", "{96B617F5-41E7-4301-8CC6-2A6EB5E741C4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{E42BE6A6-43AA-4A98-9769-15A190E64EA9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AcmeRemoteFlights.Services.Tests", "AcmeRemoteFlights.Services.Tests\AcmeRemoteFlights.Services.Tests.csproj", "{ED76E971-CE07-40C0-BE89-FAC9101E313D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AcmeRemoteFlights.Domain.Tests", "AcmeRemoteFlights.Domain.Tests\AcmeRemoteFlights.Domain.Tests.csproj", "{DE95CDE1-6B10-4F8F-96D0-849B53303E49}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3966B642-F868-4E06-B65E-18F3CE3CEFA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3966B642-F868-4E06-B65E-18F3CE3CEFA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3966B642-F868-4E06-B65E-18F3CE3CEFA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3966B642-F868-4E06-B65E-18F3CE3CEFA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3ABA81AD-819E-4B50-BBC7-CB892806931B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3ABA81AD-819E-4B50-BBC7-CB892806931B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3ABA81AD-819E-4B50-BBC7-CB892806931B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3ABA81AD-819E-4B50-BBC7-CB892806931B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96B617F5-41E7-4301-8CC6-2A6EB5E741C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96B617F5-41E7-4301-8CC6-2A6EB5E741C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96B617F5-41E7-4301-8CC6-2A6EB5E741C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96B617F5-41E7-4301-8CC6-2A6EB5E741C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED76E971-CE07-40C0-BE89-FAC9101E313D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED76E971-CE07-40C0-BE89-FAC9101E313D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED76E971-CE07-40C0-BE89-FAC9101E313D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED76E971-CE07-40C0-BE89-FAC9101E313D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE95CDE1-6B10-4F8F-96D0-849B53303E49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE95CDE1-6B10-4F8F-96D0-849B53303E49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE95CDE1-6B10-4F8F-96D0-849B53303E49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE95CDE1-6B10-4F8F-96D0-849B53303E49}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{ED76E971-CE07-40C0-BE89-FAC9101E313D} = {E42BE6A6-43AA-4A98-9769-15A190E64EA9}
+		{DE95CDE1-6B10-4F8F-96D0-849B53303E49} = {E42BE6A6-43AA-4A98-9769-15A190E64EA9}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3EA71D18-3749-46C5-A001-D500D39718D8}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,15 @@
+C:\Apps\From USB\Cognology\AcmeRemoteFlights\AcmeRemoteFlights\obj\Debug\netcoreapp2.0\AcmeRemoteFlights.csprojResolveAssemblyReference.cache
+C:\Apps\From USB\Cognology\AcmeRemoteFlights\AcmeRemoteFlights\obj\Debug\netcoreapp2.0\AcmeRemoteFlights.csproj.CoreCompileInputs.cache
+C:\Apps\From USB\Cognology\AcmeRemoteFlights\AcmeRemoteFlights\obj\Debug\netcoreapp2.0\AcmeRemoteFlights.AssemblyInfoInputs.cache
+C:\Apps\From USB\Cognology\AcmeRemoteFlights\AcmeRemoteFlights\obj\Debug\netcoreapp2.0\AcmeRemoteFlights.AssemblyInfo.cs
+C:\Apps\From USB\Cognology\AcmeRemoteFlights\AcmeRemoteFlights\bin\Debug\netcoreapp2.0\AcmeRemoteFlights.deps.json
+C:\Apps\From USB\Cognology\AcmeRemoteFlights\AcmeRemoteFlights\bin\Debug\netcoreapp2.0\AcmeRemoteFlights.runtimeconfig.json
+C:\Apps\From USB\Cognology\AcmeRemoteFlights\AcmeRemoteFlights\bin\Debug\netcoreapp2.0\AcmeRemoteFlights.runtimeconfig.dev.json
+C:\Apps\From USB\Cognology\AcmeRemoteFlights\AcmeRemoteFlights\bin\Debug\netcoreapp2.0\AcmeRemoteFlights.dll
+C:\Apps\From USB\Cognology\AcmeRemoteFlights\AcmeRemoteFlights\bin\Debug\netcoreapp2.0\AcmeRemoteFlights.pdb
+C:\Apps\From USB\Cognology\AcmeRemoteFlights\AcmeRemoteFlights\bin\Debug\netcoreapp2.0\AcmeRemoteFlights.Domain.dll
+C:\Apps\From USB\Cognology\AcmeRemoteFlights\AcmeRemoteFlights\bin\Debug\netcoreapp2.0\AcmeRemoteFlights.Domain.pdb
+C:\Apps\From USB\Cognology\AcmeRemoteFlights\AcmeRemoteFlights\obj\Debug\netcoreapp2.0\AcmeRemoteFlights.dll
+C:\Apps\From USB\Cognology\AcmeRemoteFlights\AcmeRemoteFlights\obj\Debug\netcoreapp2.0\AcmeRemoteFlights.pdb
+C:\Apps\From USB\Cognology\AcmeRemoteFlights\AcmeRemoteFlights\bin\Debug\netcoreapp2.0\AcmeRemoteFlights.Services.dll
+C:\Apps\From USB\Cognology\AcmeRemoteFlights\AcmeRemoteFlights\bin\Debug\netcoreapp2.0\AcmeRemoteFlights.Services.pdb

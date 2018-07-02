@@ -1,0 +1,11 @@
+C:\Apps\From USB\Cognology\AcmeRemoteFlights\AcmeRemoteFlights.Services\bin\Debug\netcoreapp2.0\AcmeRemoteFlights.Services.deps.json
+C:\Apps\From USB\Cognology\AcmeRemoteFlights\AcmeRemoteFlights.Services\bin\Debug\netcoreapp2.0\AcmeRemoteFlights.Services.dll
+C:\Apps\From USB\Cognology\AcmeRemoteFlights\AcmeRemoteFlights.Services\bin\Debug\netcoreapp2.0\AcmeRemoteFlights.Services.pdb
+C:\Apps\From USB\Cognology\AcmeRemoteFlights\AcmeRemoteFlights.Services\bin\Debug\netcoreapp2.0\AcmeRemoteFlights.Domain.dll
+C:\Apps\From USB\Cognology\AcmeRemoteFlights\AcmeRemoteFlights.Services\bin\Debug\netcoreapp2.0\AcmeRemoteFlights.Domain.pdb
+C:\Apps\From USB\Cognology\AcmeRemoteFlights\AcmeRemoteFlights.Services\obj\Debug\netcoreapp2.0\AcmeRemoteFlights.Services.csprojResolveAssemblyReference.cache
+C:\Apps\From USB\Cognology\AcmeRemoteFlights\AcmeRemoteFlights.Services\obj\Debug\netcoreapp2.0\AcmeRemoteFlights.Services.csproj.CoreCompileInputs.cache
+C:\Apps\From USB\Cognology\AcmeRemoteFlights\AcmeRemoteFlights.Services\obj\Debug\netcoreapp2.0\AcmeRemoteFlights.Services.AssemblyInfoInputs.cache
+C:\Apps\From USB\Cognology\AcmeRemoteFlights\AcmeRemoteFlights.Services\obj\Debug\netcoreapp2.0\AcmeRemoteFlights.Services.AssemblyInfo.cs
+C:\Apps\From USB\Cognology\AcmeRemoteFlights\AcmeRemoteFlights.Services\obj\Debug\netcoreapp2.0\AcmeRemoteFlights.Services.dll
+C:\Apps\From USB\Cognology\AcmeRemoteFlights\AcmeRemoteFlights.Services\obj\Debug\netcoreapp2.0\AcmeRemoteFlights.Services.pdb
