@@ -1,0 +1,136 @@
+{
+	"id": "c87879af-ff0a-43c8-952f-5ec369468d71",
+	"name": "AcmeRemoteFlights",
+	"description": "",
+	"auth": null,
+	"events": null,
+	"variables": [],
+	"order": [
+		"8b3fbcdb-4600-4050-9894-262269b80dea",
+		"068ce85d-5cef-4f21-af66-0ba3dd298ec8",
+		"8e309d42-4f0e-42e4-a657-f2809629f6fa"
+	],
+	"folders_order": [],
+	"folders": [],
+	"requests": [
+		{
+			"id": "068ce85d-5cef-4f21-af66-0ba3dd298ec8",
+			"name": "CheckFor3SeatsWithFromDateGreaterThanToDate",
+			"url": "http://localhost:54736/api/flights/?fromDate=2018-07-30T00:00:00.000Z&toDate=2018-07-05T00:00:00.000Z&numberOfPassengers=3",
+			"description": "From Date is greater than to date and expect a validation message",
+			"data": null,
+			"dataMode": "params",
+			"headerData": [],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "fromDate",
+					"value": "2018-07-30T00:00:00.000Z",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "toDate",
+					"value": "2018-07-05T00:00:00.000Z",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "numberOfPassengers",
+					"value": "3",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"auth": null,
+			"events": [],
+			"folder": null,
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "8b3fbcdb-4600-4050-9894-262269b80dea",
+			"name": "CheckFor3SeatsBetween02JulAnd5Jul2018",
+			"url": "http://localhost:54736/api/flights/?fromDate=2018-07-02T00:00:00.000Z&toDate=2018-07-05T00:00:00.000Z&numberOfPassengers=3",
+			"description": "Valid response with availability ",
+			"data": null,
+			"dataMode": "params",
+			"headerData": [],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "fromDate",
+					"value": "2018-07-02T00:00:00.000Z",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "toDate",
+					"value": "2018-07-05T00:00:00.000Z",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "numberOfPassengers",
+					"value": "3",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"auth": {
+				"type": "noauth"
+			},
+			"events": [],
+			"folder": null,
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "8e309d42-4f0e-42e4-a657-f2809629f6fa",
+			"name": "CheckAvailabilityNoAvailableSeats",
+			"url": "http://localhost:54736/api/flights/?fromDate=2018-07-07T00:00:00.000Z&toDate=2018-07-07T23:59:59.000Z&numberOfPassengers=3",
+			"description": "Check for 3 seats where no availability exists",
+			"data": null,
+			"dataMode": "params",
+			"headerData": [],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "fromDate",
+					"value": "2018-07-07T00:00:00.000Z",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "toDate",
+					"value": "2018-07-07T23:59:59.000Z",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "numberOfPassengers",
+					"value": "3",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"auth": null,
+			"events": [],
+			"folder": null,
+			"headers": "",
+			"pathVariables": {}
+		}
+	]
+}
